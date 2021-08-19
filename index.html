@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="./portfolio.css">
+  <!--font-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+   
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  
+   <!--navbar-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white pb-5">
+    <div class="container px-5 py-3">
+        <h2><a class="navbar-brand" href="#">SB UI Kit Pro</a></h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ms-auto mb-2 mt-media mb-lg-0">
+                <div class="nav-item ms-4 ms-sm-0">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </div>
+                         <!-- landing -->
+                <div class="nav-item ms-4 dropdown">
+                    <a class="nav-link dropdown-toggle show" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Landings
+                    </a>
+
+                   
+
+                    <div class="dropdown-menu shadow py-4 px-3 " aria-labelledby="navbarDropdown" data-bs-popper="none">
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <h6 class="dropdown-header text-primary">Applications</h6>
+                                <a class="dropdown-item" href="#">Mobile App</a>
+                                <a class="dropdown-item" href="#">Desktop App</a>
+
+                                <div class="dropdown-divider"></div>
+
+                                <h6 class="dropdown-header text-primary">Business</h6>
+                                <a class="dropdown-item" href="#">Multipurpose</a>
+                                <a class="dropdown-item" href="#">Agency</a>
+                                <a class="dropdown-item" href="#">Press</a>
+                                <a class="dropdown-item" href="#">Directory</a>
+                                <a class="dropdown-item" href="#">Rental</a>
+                                <a class="dropdown-item" href="#">Real Estate</a>
+                                <a class="dropdown-item" href="#">Classifieds</a>
+
+                                <div class="dropdown-divider"></div>
+
+                                <h6 class="dropdown-header text-primary">Lead Generation</h6>
+                                <a class="dropdown-item" href="#">Lead Capture</a>
+
+                                <div class="dropdown-divider border-0 d-lg-none"></div>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <h6 class="dropdown-header text-primary">Personal</h6>
+                                <a class="dropdown-item" href="#">Resume</a>
+                                <a class="dropdown-item" href="#">Portfolio</a>
+
+                                <div class="dropdown-divider border-0"></div>
+
+                                <h6 class="dropdown-header text-primary">Header Styles</h6>
+                                <a class="dropdown-item" href="#">Basic</a>
+                                <a class="dropdown-item" href="#">Basic (Signup)</a>
+                                <a class="dropdown-item" href="#">Graphic</a>
+                                <a class="dropdown-item" href="#">Graphic (Signup)</a>
+                                <a class="dropdown-item" href="#">Inner Page</a>
+                                <a class="dropdown-item" href="#">Nav Only</a>
+
+                            </div>
+                        </div>
+                      </div>
+
+                    <!--pages-->
+
+                </div>
+
+                <div class="nav-item ms-4 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+
+                    
+
+                    <div class="dropdown-menu shadow dropdown-menu-end dropdown-menu-lg-start py-4 px-3" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <h6 class="dropdown-header text-primary">Careers</h6>
+                                <a class="dropdown-item" href="#">Career Lists</a>
+                                <a class="dropdown-item" href="#">Position Details</a>
+
+                                <div class="dropdown-divider border-0"></div>
+
+                                <h6 class="dropdown-header text-primary">Blogs</h6>
+                                <a class="dropdown-item" href="#">Overview</a>
+                                <a class="dropdown-item" href="#">Post</a>
+                                <a class="dropdown-item" href="#">Archive</a>
+
+                                <div class="dropdown-divider border-0"></div>
+
+                                <h6 class="dropdown-header text-primary">Portfolio</h6>
+                                <a class="dropdown-item" href="#">Grid</a>
+                                <a class="dropdown-item" href="#">Large Grid</a>
+                                <a class="dropdown-item" href="#">Case Study</a>
+                                <a class="dropdown-item" href="#">Projects</a>
+                                <a class="dropdown-item" href="#">Masonary</a>
+
+                                <div class="dropdown-divider border-0 d-lg-none"></div>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <h6 class="dropdown-header text-primary">Errors</h6>
+                                <a class="dropdown-item" href="#">401 Error</a>
+                                <a class="dropdown-item" href="#">401 Error</a>
+                                <a class="dropdown-item" href="#">401 Error</a>
+                                <a class="dropdown-item" href="#">401 Error</a>
+                                <a class="dropdown-item" href="#">401 Error</a>
+                                <a class="dropdown-item" href="#">401 Error</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                  
+
+                </div>
+                  <!--documentation-->
+                <div class="nav-item ms-4 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Documentation
+                    </a>
+                    <ul class="dropdown-menu doc-menu shadow" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-columns my-1 me-3"></i>Usage
+                                instructions</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-columns my-1 me-3"></i>Code
+                                snippets</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-columns my-1 me-3"></i>Updates and
+                                changes</a></li>
+                    </ul>
+                </div>
+                <form class="d-flex ms-5 m-media">
+                    <button class="btn btn-primary bg-gradient py-2 px-3" type="submit">Buy Now<i class="fas fa-angle-right ms-2"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+  <!--image-->
+  <div class=" container image1 mb-5 img-fluid pt-5" style="width: 16rem;  " >
+    <img src="https://sb-ui-kit-pro-angular.startbootstrap.com/assets/img/demo/avataaars.svg" />
+  </div>
+  <div class="container text">
+
+    <h1 class="text-center">Welcome to my portfolio!</h1>
+    <p class="text-center ">I am a graphic artist, illustrator, and UI designer specializing in modern, creative design
+      based in Wildemount, TX</p>
+  </div>
+  <!--skills-->
+  <section style="background-color: #F2F5FC; position: relative;" class="skills" id="2">
+            <div class="container pt-5 pb-5">
+                <div class=" row text-center ">
+                    <div class="col-lg-4 col-md-4 col-12 mt-5  "> 
+                      <span class="align-items-center justify-content-center d-flex">
+                         <i style=" border-radius: 50%;color: white; background-color: #e81500; width: 80px; height: 80px;" class="fa fa-pen mt-5 p-4 fa-2x">
+                        </i>
+                      </span>
+                        <h3 class="my-4">Illustration</h3>
+                        <p>I provide custom illustration services for contract clients</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5   ">
+                      
+                     <span class="align-items-center justify-content-center d-flex">
+                       <i style=" border-radius: 50%;color: white; background-color: #f4a000;" class="fa fa-columns mt-5 p-4 fa-2x">
+                      </i>
+                    </span>
+                        <h3 class="my-4">UI Design</h3>
+                        <p>User experience and interface designs is one of my specialties</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5  ">
+                      <span class="align-items-center justify-content-center d-flex">
+                        <i style="  border-radius: 50%;color: white; background-color: #0161f3; width: 80px;" class="fa fa-tint   mt-5 p-4 fa-2x">
+                        </i>
+                      </span>
+                        <h3 class="my-4">Graphic Design</h3>
+                        <p>Photo restoration, post processing, and other photo services</p>
+                    </div>
+                </div>
+            </div>
+</section>
+             
+
+<!-- Gallery -->
+<section class="gallery bg-white py-5" id="3">
+  <div class="container px-5">
+<div class="row py-5">
+  <div class="col-lg-4 col-md-4 col-12 mb-4 mb-lg-0">
+      <div class="container1">
+    <img
+      src="https://source.unsplash.com/jWQj5Wjepuk/400x300"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="" />
+      <div class="overlay">
+        <div class="text1">BOOK</div>
+      </div>
+    </div>
+   
+    <div class="container1">
+    <img
+      src="https://source.unsplash.com/Ecnx13MEPK0/400x500
+      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">FLOWER MUG</div>
+    </div>
+  </div>
+  <div class="container1">
+    <img
+      src="https://source.unsplash.com/eUCy1jb_B7I/400x400
+      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">CACTUS DISPLAY</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-12 mb-4 mb-lg-0">
+    <div class="container1">
+    <img
+      src="https://source.unsplash.com/cuTcfqsES6o/400x500      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">READING</div>
+    </div>
+  </div>
+  <div class="container1">
+    <img
+      src="https://source.unsplash.com/jipR1oTCO7U/400x400      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">WHITE BOOK</div>
+    </div>
+  </div>
+  <div class="container1">
+    <img
+      src="https://source.unsplash.com/n3sqjJzZiBM/400x300      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">PHOTO FACE</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-12 mb-4 mb-lg-0">
+    <div class="container1">
+    <img
+      src="https://source.unsplash.com/Zr7MxECDTQ8/400x300"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">CATALOG</div>
+    </div>
+  </div>
+  <div class="container1">
+    <img
+      src="https://source.unsplash.com/QcyenJDqDzw/400x500
+      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">NOTEBOOK</div>
+    </div>
+  </div>
+  <div class="container1">
+    <img
+      src="https://source.unsplash.com/TIutDBFEtcY/400x400
+      "
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <div class="overlay">
+      <div class="text1">BOOK STAND</div>
+    </div>
+  </div>
+  </div>
+</div>
+
+</div>
+</section>
+<!--contact-->
+<section class="contact py-5" id="4">
+  <div class="px-5  text-center">
+
+  <h2 class ="pt-5">Contact me</h2>
+  <p>I am available for contract work, when you're ready - let me know!</p>
+</div>
+<div class="px-5 text-center container-fluid">
+<div  class="row gx-5  justify-content-center">
+  <div class =" col-lg-5 col-md-5 col-sm-12 col-12">
+    <div class="card bg-white shadow mx-5">
+    <span class="align-items-center justify-content-center">
+    
+      <i style=" background-color: orange;color: #fff; width: 64px; height: 64px; border-radius: 50%;" class="fa fa-envelope fa-2x mt-4 p-3"></i>
+    </span>
+    <a href="">
+        <p  style="color: blue;" class="py-4">hello@example.com</p>
+    </a>
+     </div>
+     </div>
+  <div class=" col-lg-5 col-md-5 col-sm-12 col-12"> 
+   <div class="card bg-white shadow mx-5 ">
+     <span class="align-items-center justify-content-center">
+      <i style=" background-color:#00ac69 ;color:#fff; width: 64px; height: 64px; border-radius: 50%;" class="fa fa-mobile fa-2x  mt-4 p-3"></i>
+     </span>
+          <p  style="color:#69707a ; " class="py-4">555-123-4567</p>
+     </div>
+    </div>
+
+</div>
+</div>
+</section>
+<!--footer-->
+<section class="footer pt-5 mt-auto bg-dark">
+  <div class="container py-5 px-5">
+    <div class="row gx-5">
+      <div class="col-lg-3">
+        <div class="footer-brand">SB UI Kit Pro</div>
+        <div class="mb-3">Build better websites</div>
+      <div class="icon-list-social mb-5">
+        <a href="#"><i class="fa fa-github fa-2x"></i></a>
+            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+      </div>
+    </div>
+    
+    <div class="col-lg-9">
+      <div class="row gx-5">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="text-uppercase text-xs mb-4">product</div>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">Landing</li>
+            <li class="mb-2">Pages</li>
+            <li class="mb-2">Sections</li>
+            <li class="mb-2">Documentions</li>
+            <li class="mb-2">Changelog</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="text-uppercase text-xs mb-4">technical</div>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">Documentation</li>
+            <li class="mb-2">Changelog</li>
+            <li class="mb-2">Theme Costumizer</li>
+            <li class="mb-2">UI Kit</li>
+           
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="text-uppercase text-xs mb-4">includes</div>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">Utilities</li>
+            <li class="mb-2">Components</li>
+            <li class="mb-2">Layouts</li>
+            <li class="mb-2">Code Samples</li>
+            <li class="mb-2">Products</li>
+            <li class="mb-2">Affiliates</li>
+            <li class="mb-2">Updates</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="text-uppercase text-xs mb-4">legal</div>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">Privacy Policy</li>
+            <li class="mb-2">Terms And Conditions</li>
+            <li class="mb-2">License</li>
+           
+          </ul>
+        </div>
+</div>
+    </div>
+    <hr class="my-5">
+    <div class="row gx-5 align-items-center">
+      <div class="col-md-6 small">Copyright @ Your Website 2021</div>
+      <dic class="col-md-6  text-md-end small">Privacy Policy . Terms And Conditions</dic>
+    </div>
+ </div>
+
+</section>
+
+</body>
+
+</html>
